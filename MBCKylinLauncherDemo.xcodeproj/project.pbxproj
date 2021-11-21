@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649111FF273E13C1003282EF /* MBCKylinLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 649111F5273E13C1003282EF /* MBCKylinLauncher.m */; };
+		64911200273E13C2003282EF /* MBCKylinLauncher+willFinishLaunching.m in Sources */ = {isa = PBXBuildFile; fileRef = 649111F6273E13C1003282EF /* MBCKylinLauncher+willFinishLaunching.m */; };
+		64911201273E13C2003282EF /* MBCKylinLauncher+didFinishLaunching.m in Sources */ = {isa = PBXBuildFile; fileRef = 649111F7273E13C1003282EF /* MBCKylinLauncher+didFinishLaunching.m */; };
+		64911202273E13C2003282EF /* MBCKylinLauncher+premain.m in Sources */ = {isa = PBXBuildFile; fileRef = 649111F9273E13C1003282EF /* MBCKylinLauncher+premain.m */; };
+		64911203273E13C2003282EF /* MBCKylinLauncher+didBecomeActive.m in Sources */ = {isa = PBXBuildFile; fileRef = 649111FB273E13C1003282EF /* MBCKylinLauncher+didBecomeActive.m */; };
+		64911207273E4462003282EF /* MBCKylinLauncher+test9.m in Sources */ = {isa = PBXBuildFile; fileRef = 64911206273E4461003282EF /* MBCKylinLauncher+test9.m */; };
+		6492737A273A5D0000B5818A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64927379273A5D0000B5818A /* AppDelegate.m */; };
+		6492737D273A5D0000B5818A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6492737C273A5D0000B5818A /* SceneDelegate.m */; };
+		64927380273A5D0000B5818A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6492737F273A5D0000B5818A /* ViewController.m */; };
+		64927383273A5D0000B5818A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64927381273A5D0000B5818A /* Main.storyboard */; };
+		64927385273A5D0200B5818A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64927384273A5D0200B5818A /* Assets.xcassets */; };
+		64927388273A5D0200B5818A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64927386273A5D0200B5818A /* LaunchScreen.storyboard */; };
+		6492738B273A5D0200B5818A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6492738A273A5D0200B5818A /* main.m */; };
+		64927395273A5D0200B5818A /* MBCKylinLauncherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64927394273A5D0200B5818A /* MBCKylinLauncherDemoTests.m */; };
+		649273A0273A5D0200B5818A /* MBCKylinLauncherDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6492739F273A5D0200B5818A /* MBCKylinLauncherDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64927391273A5D0200B5818A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6492736D273A5D0000B5818A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64927374273A5D0000B5818A;
+			remoteInfo = MBCKylinLauncherDemo;
+		};
+		6492739C273A5D0200B5818A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6492736D273A5D0000B5818A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64927374273A5D0000B5818A;
+			remoteInfo = MBCKylinLauncherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		649111F5273E13C1003282EF /* MBCKylinLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCKylinLauncher.m; sourceTree = "<group>"; };
+		649111F6273E13C1003282EF /* MBCKylinLauncher+willFinishLaunching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBCKylinLauncher+willFinishLaunching.m"; sourceTree = "<group>"; };
+		649111F7273E13C1003282EF /* MBCKylinLauncher+didFinishLaunching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBCKylinLauncher+didFinishLaunching.m"; sourceTree = "<group>"; };
+		649111F8273E13C1003282EF /* MBCKylinLauncher+premain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBCKylinLauncher+premain.h"; sourceTree = "<group>"; };
+		649111F9273E13C1003282EF /* MBCKylinLauncher+premain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBCKylinLauncher+premain.m"; sourceTree = "<group>"; };
+		649111FA273E13C1003282EF /* MBCKylinLauncher+didBecomeActive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBCKylinLauncher+didBecomeActive.h"; sourceTree = "<group>"; };
+		649111FB273E13C1003282EF /* MBCKylinLauncher+didBecomeActive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBCKylinLauncher+didBecomeActive.m"; sourceTree = "<group>"; };
+		649111FC273E13C1003282EF /* MBCKylinLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCKylinLauncher.h; sourceTree = "<group>"; };
+		649111FD273E13C1003282EF /* MBCKylinLauncher+willFinishLaunching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBCKylinLauncher+willFinishLaunching.h"; sourceTree = "<group>"; };
+		649111FE273E13C1003282EF /* MBCKylinLauncher+didFinishLaunching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBCKylinLauncher+didFinishLaunching.h"; sourceTree = "<group>"; };
+		64911205273E4461003282EF /* MBCKylinLauncher+test9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBCKylinLauncher+test9.h"; sourceTree = "<group>"; };
+		64911206273E4461003282EF /* MBCKylinLauncher+test9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBCKylinLauncher+test9.m"; sourceTree = "<group>"; };
+		64927375273A5D0000B5818A /* MBCKylinLauncherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBCKylinLauncherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64927378273A5D0000B5818A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64927379273A5D0000B5818A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6492737B273A5D0000B5818A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6492737C273A5D0000B5818A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6492737E273A5D0000B5818A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6492737F273A5D0000B5818A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64927382273A5D0000B5818A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64927384273A5D0200B5818A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64927387273A5D0200B5818A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64927389273A5D0200B5818A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6492738A273A5D0200B5818A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64927390273A5D0200B5818A /* MBCKylinLauncherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBCKylinLauncherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64927394273A5D0200B5818A /* MBCKylinLauncherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBCKylinLauncherDemoTests.m; sourceTree = "<group>"; };
+		64927396273A5D0200B5818A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6492739B273A5D0200B5818A /* MBCKylinLauncherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBCKylinLauncherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6492739F273A5D0200B5818A /* MBCKylinLauncherDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBCKylinLauncherDemoUITests.m; sourceTree = "<group>"; };
+		649273A1273A5D0200B5818A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64927372273A5D0000B5818A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6492738D273A5D0200B5818A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64927398273A5D0200B5818A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64911204273E442F003282EF /* tasks */ = {
+			isa = PBXGroup;
+			children = (
+				64911205273E4461003282EF /* MBCKylinLauncher+test9.h */,
+				64911206273E4461003282EF /* MBCKylinLauncher+test9.m */,
+			);
+			path = tasks;
+			sourceTree = "<group>";
+		};
+		6492736C273A5D0000B5818A = {
+			isa = PBXGroup;
+			children = (
+				64927377273A5D0000B5818A /* MBCKylinLauncherDemo */,
+				64927393273A5D0200B5818A /* MBCKylinLauncherDemoTests */,
+				6492739E273A5D0200B5818A /* MBCKylinLauncherDemoUITests */,
+				64927376273A5D0000B5818A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64927376273A5D0000B5818A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64927375273A5D0000B5818A /* MBCKylinLauncherDemo.app */,
+				64927390273A5D0200B5818A /* MBCKylinLauncherDemoTests.xctest */,
+				6492739B273A5D0200B5818A /* MBCKylinLauncherDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64927377273A5D0000B5818A /* MBCKylinLauncherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				649273AD273A5D1100B5818A /* launcher */,
+				64927378273A5D0000B5818A /* AppDelegate.h */,
+				64927379273A5D0000B5818A /* AppDelegate.m */,
+				6492737B273A5D0000B5818A /* SceneDelegate.h */,
+				6492737C273A5D0000B5818A /* SceneDelegate.m */,
+				6492737E273A5D0000B5818A /* ViewController.h */,
+				6492737F273A5D0000B5818A /* ViewController.m */,
+				64927381273A5D0000B5818A /* Main.storyboard */,
+				64927384273A5D0200B5818A /* Assets.xcassets */,
+				64927386273A5D0200B5818A /* LaunchScreen.storyboard */,
+				64927389273A5D0200B5818A /* Info.plist */,
+				6492738A273A5D0200B5818A /* main.m */,
+			);
+			path = MBCKylinLauncherDemo;
+			sourceTree = "<group>";
+		};
+		64927393273A5D0200B5818A /* MBCKylinLauncherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				64927394273A5D0200B5818A /* MBCKylinLauncherDemoTests.m */,
+				64927396273A5D0200B5818A /* Info.plist */,
+			);
+			path = MBCKylinLauncherDemoTests;
+			sourceTree = "<group>";
+		};
+		6492739E273A5D0200B5818A /* MBCKylinLauncherDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6492739F273A5D0200B5818A /* MBCKylinLauncherDemoUITests.m */,
+				649273A1273A5D0200B5818A /* Info.plist */,
+			);
+			path = MBCKylinLauncherDemoUITests;
+			sourceTree = "<group>";
+		};
+		649273AD273A5D1100B5818A /* launcher */ = {
+			isa = PBXGroup;
+			children = (
+				649111FC273E13C1003282EF /* MBCKylinLauncher.h */,
+				649111F5273E13C1003282EF /* MBCKylinLauncher.m */,
+				649111F8273E13C1003282EF /* MBCKylinLauncher+premain.h */,
+				649111F9273E13C1003282EF /* MBCKylinLauncher+premain.m */,
+				649111FD273E13C1003282EF /* MBCKylinLauncher+willFinishLaunching.h */,
+				649111F6273E13C1003282EF /* MBCKylinLauncher+willFinishLaunching.m */,
+				649111FE273E13C1003282EF /* MBCKylinLauncher+didFinishLaunching.h */,
+				649111F7273E13C1003282EF /* MBCKylinLauncher+didFinishLaunching.m */,
+				649111FA273E13C1003282EF /* MBCKylinLauncher+didBecomeActive.h */,
+				649111FB273E13C1003282EF /* MBCKylinLauncher+didBecomeActive.m */,
+				64911204273E442F003282EF /* tasks */,
+			);
+			path = launcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64927374273A5D0000B5818A /* MBCKylinLauncherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649273A4273A5D0200B5818A /* Build configuration list for PBXNativeTarget "MBCKylinLauncherDemo" */;
+			buildPhases = (
+				64927371273A5D0000B5818A /* Sources */,
+				64927372273A5D0000B5818A /* Frameworks */,
+				64927373273A5D0000B5818A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBCKylinLauncherDemo;
+			productName = MBCKylinLauncherDemo;
+			productReference = 64927375273A5D0000B5818A /* MBCKylinLauncherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6492738F273A5D0200B5818A /* MBCKylinLauncherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649273A7273A5D0200B5818A /* Build configuration list for PBXNativeTarget "MBCKylinLauncherDemoTests" */;
+			buildPhases = (
+				6492738C273A5D0200B5818A /* Sources */,
+				6492738D273A5D0200B5818A /* Frameworks */,
+				6492738E273A5D0200B5818A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64927392273A5D0200B5818A /* PBXTargetDependency */,
+			);
+			name = MBCKylinLauncherDemoTests;
+			productName = MBCKylinLauncherDemoTests;
+			productReference = 64927390273A5D0200B5818A /* MBCKylinLauncherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6492739A273A5D0200B5818A /* MBCKylinLauncherDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649273AA273A5D0200B5818A /* Build configuration list for PBXNativeTarget "MBCKylinLauncherDemoUITests" */;
+			buildPhases = (
+				64927397273A5D0200B5818A /* Sources */,
+				64927398273A5D0200B5818A /* Frameworks */,
+				64927399273A5D0200B5818A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6492739D273A5D0200B5818A /* PBXTargetDependency */,
+			);
+			name = MBCKylinLauncherDemoUITests;
+			productName = MBCKylinLauncherDemoUITests;
+			productReference = 6492739B273A5D0200B5818A /* MBCKylinLauncherDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6492736D273A5D0000B5818A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					64927374273A5D0000B5818A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6492738F273A5D0200B5818A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 64927374273A5D0000B5818A;
+					};
+					6492739A273A5D0200B5818A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 64927374273A5D0000B5818A;
+					};
+				};
+			};
+			buildConfigurationList = 64927370273A5D0000B5818A /* Build configuration list for PBXProject "MBCKylinLauncherDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6492736C273A5D0000B5818A;
+			productRefGroup = 64927376273A5D0000B5818A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64927374273A5D0000B5818A /* MBCKylinLauncherDemo */,
+				6492738F273A5D0200B5818A /* MBCKylinLauncherDemoTests */,
+				6492739A273A5D0200B5818A /* MBCKylinLauncherDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64927373273A5D0000B5818A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64927388273A5D0200B5818A /* LaunchScreen.storyboard in Resources */,
+				64927385273A5D0200B5818A /* Assets.xcassets in Resources */,
+				64927383273A5D0000B5818A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6492738E273A5D0200B5818A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64927399273A5D0200B5818A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64927371273A5D0000B5818A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649111FF273E13C1003282EF /* MBCKylinLauncher.m in Sources */,
+				64911202273E13C2003282EF /* MBCKylinLauncher+premain.m in Sources */,
+				64911200273E13C2003282EF /* MBCKylinLauncher+willFinishLaunching.m in Sources */,
+				64911201273E13C2003282EF /* MBCKylinLauncher+didFinishLaunching.m in Sources */,
+				64911203273E13C2003282EF /* MBCKylinLauncher+didBecomeActive.m in Sources */,
+				64927380273A5D0000B5818A /* ViewController.m in Sources */,
+				6492737A273A5D0000B5818A /* AppDelegate.m in Sources */,
+				64911207273E4462003282EF /* MBCKylinLauncher+test9.m in Sources */,
+				6492738B273A5D0200B5818A /* main.m in Sources */,
+				6492737D273A5D0000B5818A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6492738C273A5D0200B5818A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64927395273A5D0200B5818A /* MBCKylinLauncherDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64927397273A5D0200B5818A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649273A0273A5D0200B5818A /* MBCKylinLauncherDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64927392273A5D0200B5818A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64927374273A5D0000B5818A /* MBCKylinLauncherDemo */;
+			targetProxy = 64927391273A5D0200B5818A /* PBXContainerItemProxy */;
+		};
+		6492739D273A5D0200B5818A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64927374273A5D0000B5818A /* MBCKylinLauncherDemo */;
+			targetProxy = 6492739C273A5D0200B5818A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64927381273A5D0000B5818A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64927382273A5D0000B5818A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64927386273A5D0200B5818A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64927387273A5D0200B5818A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649273A2273A5D0200B5818A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		649273A3273A5D0200B5818A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		649273A5273A5D0200B5818A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PLYJS69CP;
+				INFOPLIST_FILE = MBCKylinLauncherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cccc.MBCKylinLauncherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		649273A6273A5D0200B5818A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PLYJS69CP;
+				INFOPLIST_FILE = MBCKylinLauncherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cccc.MBCKylinLauncherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		649273A8273A5D0200B5818A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PLYJS69CP;
+				INFOPLIST_FILE = MBCKylinLauncherDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cccc.MBCKylinLauncherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBCKylinLauncherDemo.app/MBCKylinLauncherDemo";
+			};
+			name = Debug;
+		};
+		649273A9273A5D0200B5818A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PLYJS69CP;
+				INFOPLIST_FILE = MBCKylinLauncherDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cccc.MBCKylinLauncherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBCKylinLauncherDemo.app/MBCKylinLauncherDemo";
+			};
+			name = Release;
+		};
+		649273AB273A5D0200B5818A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PLYJS69CP;
+				INFOPLIST_FILE = MBCKylinLauncherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cccc.MBCKylinLauncherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MBCKylinLauncherDemo;
+			};
+			name = Debug;
+		};
+		649273AC273A5D0200B5818A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PLYJS69CP;
+				INFOPLIST_FILE = MBCKylinLauncherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cccc.MBCKylinLauncherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MBCKylinLauncherDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64927370273A5D0000B5818A /* Build configuration list for PBXProject "MBCKylinLauncherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649273A2273A5D0200B5818A /* Debug */,
+				649273A3273A5D0200B5818A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649273A4273A5D0200B5818A /* Build configuration list for PBXNativeTarget "MBCKylinLauncherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649273A5273A5D0200B5818A /* Debug */,
+				649273A6273A5D0200B5818A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649273A7273A5D0200B5818A /* Build configuration list for PBXNativeTarget "MBCKylinLauncherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649273A8273A5D0200B5818A /* Debug */,
+				649273A9273A5D0200B5818A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649273AA273A5D0200B5818A /* Build configuration list for PBXNativeTarget "MBCKylinLauncherDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649273AB273A5D0200B5818A /* Debug */,
+				649273AC273A5D0200B5818A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6492736D273A5D0000B5818A /* Project object */;
+}
